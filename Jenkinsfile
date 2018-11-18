@@ -5,6 +5,7 @@ node {
               stage('FRIGHT') {
                 echo "And we're running!"
                 echo "Testing webhook"
+                echo "NO CSRF!!!!"
               }
             }
         }
