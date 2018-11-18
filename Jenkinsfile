@@ -2,8 +2,10 @@ node {
     try {
         wrap([$class: 'AnsiColorBuildWrapper', colorMapName: 'xterm']) {
             wrap([$class: 'TimestamperBuildWrapper']) {
-              echo "And we're running!"
-              echo "Testing webhook"
+              stage('FRIGHT') {
+                echo "And we're running!"
+                echo "Testing webhook"
+              }
             }
         }
     } catch (def e) {
