@@ -6,7 +6,7 @@ node {
                 echo "And we're running!"
                 echo "Testing webhook"
                 echo "NO CSRF!!!!"
-                echo "Also, anonymous overall read rights and other rights!"
+                // echo "Also, anonymous overall read rights and other rights!"
               }
             }
         }
