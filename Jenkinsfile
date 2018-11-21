@@ -6,6 +6,8 @@ node {
                 echo "And we're running!"
                 echo "Testing webhook"
                 echo "NO CSRF!!!!"
+                sh('env')
+                echo "${env.JENKINS_TYPE}"
                 // // echo "Also, anonymous overall read rights and other rights!"
               }
             }
